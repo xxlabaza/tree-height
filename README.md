@@ -3,14 +3,14 @@
 
 Test task to find a tree's maximum height.
 
-## Build docker image
+## Run tests
 
 ```bash
-$> ./mvnw clean package docker:build
+$> ./mvnw test
 ```
 
-## Package, verify and run
+## Verify the project
 
 ```bash
-$> ./mvnw clean package verify; and java -jar target/tree-height-1.0.0.jar
+$> ./mvnw verify
 ```
